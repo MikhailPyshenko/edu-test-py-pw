@@ -1,5 +1,5 @@
 from playwright.sync_api import Page
-from config.logger import get_logger
+from config.utils.logger import get_logger
 
 
 class ActionPage:
@@ -59,3 +59,9 @@ class ActionPage:
         # Ждёт появления элемента с заданным локатором (5000 тикетов = 5 секунд)
         self.logger.info(f"Ожидание селектора {locator} в течение {timeout} мс")
         self.page.wait_for_selector(locator, timeout=timeout)
+
+    def wait(self, timeout):
+        # Ждёт появления элемента с заданным локатором (5000 тикетов = 5 секунд)
+        self.logger.info(f"Ожидание {timeout} секунд")
+        timeout = timeout / 1000
+        self.page.wait_for_timeout(timeout)

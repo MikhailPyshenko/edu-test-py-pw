@@ -1,7 +1,8 @@
 from playwright.sync_api import Page
-from config.logger import get_logger
+from config.utils.logger import get_logger
 
 HOME_URL = "https://www.saucedemo.com/"
+HEADER_TITLE = ".title"
 BURGER_MENU = "#react-burger-menu-btn"
 
 

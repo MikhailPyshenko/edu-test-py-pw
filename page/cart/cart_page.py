@@ -1,10 +1,9 @@
 import allure
 from page.base_page import BasePage
-from config.utils.actions import ActionPage
-from config.utils.asserts import AssertPage
+from config.actions import ActionPage
+from config.asserts import AssertPage
 from config.utils.reporter import ReportPage
 from page.cart.cart_locators import CHECKOUT_BUTTON, CART_LIST, CART_ITEM
-from page.cart.cart_data import *
 from page.inventory.inventory_locators import *
 
 

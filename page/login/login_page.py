@@ -1,7 +1,7 @@
 import allure
 from page.base_page import BasePage
-from config.utils.actions import ActionPage
-from config.utils.asserts import AssertPage
+from config.actions import ActionPage
+from config.asserts import AssertPage
 from config.utils.reporter import ReportPage
 from page.login.login_locators import (
     USERNAME_INPUT,

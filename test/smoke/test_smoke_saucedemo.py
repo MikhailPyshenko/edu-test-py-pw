@@ -10,22 +10,6 @@ from page.pay.pay_page import PayPage
 from page.pay.pay_data import PAY_URL
 
 
-# Шаблон тестовой фикстуры
-"""
-@pytest.fixture
-def имя_метода(page):
-    return КЛАСС_МЕТОДА(page)
-"""
-# Шаблон тестового метода
-"""
-class TestSauceDemo:
-    @pytest.mark.smoke
-    def test_имя_метода(self, имя_метода):
-        шаги тестов:
-        модель_теста.метод_теста
-"""
-
-
 @pytest.fixture
 def login_page(page):
     return LoginPage(page)
