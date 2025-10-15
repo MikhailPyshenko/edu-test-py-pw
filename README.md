@@ -37,6 +37,7 @@ pip install -r requirements.txt
 pip install playwright pytest pytest-playwright pytest-html allure-pytest requests locust faker
 ```
 * После установки пакетов, установите браузера `playwright`, этой командой установятся 3 (firefox, chromium, webkit) браузера:
+  * Подробнее в [docs \ `PW.md`](https://github.com/MikhailPyshenko/edu-test-py-pw/blob/main/docs/PW.md)
 ```shell
 playwright install
 ```
@@ -51,6 +52,7 @@ playwright uninstall chromium                           # Удалить бра�
 
 ## **Запуск авто-тестов**
 * Запуск тестов через `pytest`:
+  * Подробнее в [docs \ `PYTEST.md`](https://github.com/MikhailPyshenko/edu-test-py-pw/blob/main/docs/PYTEST.md)
 ```shell
 # Запуск скриптов:
 pytest                                              # запустит все фикстуры @pytest в проекте\директории
@@ -101,6 +103,8 @@ allure serve reports/allure-results
 * **Покупка** - `page/pay/pay_page.py`
 
 ## **Архитектура проекта**
+* Описание структуры проекта, иерархии файлов и директорий, и их назначение и цель
+  * Подробнее в [docs \ `ARCH.md`](https://github.com/MikhailPyshenko/edu-test-py-pw/blob/main/docs/ARCH.md)
 <details>
 <summary>
 ==[НАЖМИ]== Структура директорий
