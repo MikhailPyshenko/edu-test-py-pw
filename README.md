@@ -36,7 +36,7 @@ pip install -r requirements.txt
 ```shell
 pip install playwright pytest pytest-playwright pytest-html allure-pytest requests locust faker
 ```
-* После установки пакетов, установите браузера `playwright`, этой командой установятся 3 (firefox, chromium, webkit) браузера:
+* После установки пакетов, установите браузера `playwright`, командой нужно установить 3 (firefox, chromium, webkit) браузера:
   * Подробнее в [docs \ `PW.md`](https://github.com/MikhailPyshenko/edu-test-py-pw/blob/main/docs/PW.md)
 ```shell
 playwright install
@@ -51,8 +51,13 @@ playwright uninstall chromium                           # Удалить бра�
 ```
 
 ## **Запуск авто-тестов**
-* Запуск тестов через `pytest`:
+* Запуск тестов через `pytest`: команда `pytest -m smoke`
   * Подробнее в [docs \ `PYTEST.md`](https://github.com/MikhailPyshenko/edu-test-py-pw/blob/main/docs/PYTEST.md)
+<details>
+<summary>
+==[НАЖМИ]== Команды запуска тестов
+</summary><p>
+
 ```shell
 # Запуск скриптов:
 pytest                                              # запустит все фикстуры @pytest в проекте\директории
@@ -83,9 +88,15 @@ pytest --durations=2                                # Показать (в ко�
 # Пример полной команды:
 pytest test/smoke/test_smoke_saucedemo.py::TestSauceDemo::test_login_logout --browser=firefox --headless --alluredir=reports/allure-results --durations=2 -v
 ```
+</p></details>
 
 * Просмотр отчёта [`allure`](https://github.com/allure-framework/allure2/releases):
   * Подробнее в [docs \ `ALLURE.md`](https://github.com/MikhailPyshenko/edu-test-py-pw/blob/main/docs/ALLURE.md)
+<details>
+<summary>
+==[НАЖМИ]== Команды запуска отчета allure
+</summary><p>
+
 ```shell
 # Убедитесь в нахождении или перейдите командой CD в главную директорию проекта
 # Запустите генерацию отчётов из сырых данных в allure-results, в готовые в allure-report
@@ -95,6 +106,7 @@ allure open reports/allure-report
 # ИЛИ Команда генерации + запуск + удаление
 allure serve reports/allure-results
 ```
+</p></details>
 
 ## **Покрытые авто-тестами модули**
 * **Авторизация** - `page/login/login_page.py`
