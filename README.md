@@ -181,4 +181,4 @@ git commit -m "Комментарий"
 # Отправка изменений на сервер (-u чтобы запомнил ветки, потом можно просто git push)
 git push -u origin main
 ```
-* **Подключение к репозиторию через `git`** описано в [docs \ `ALLURE.md`](https://github.com/MikhailPyshenko/edu-test-py-pw/blob/main/docs/GIT.md)
+* **Подключение к репозиторию через `git`** описано в [docs \ `GIT.md`](https://github.com/MikhailPyshenko/edu-test-py-pw/blob/main/docs/GIT.md)
