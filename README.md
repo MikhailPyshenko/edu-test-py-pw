@@ -36,19 +36,23 @@ pip install -r requirements.txt
 ```shell
 pip install playwright pytest pytest-playwright pytest-html allure-pytest requests locust faker
 ```
-* После установки пакетов, установите браузера `playwright`, командой нужно установить 3 (firefox, chromium, webkit) браузера:
+* После установки пакетов, установите браузера `playwright`, командой нужно установить как минимум 1 браузер: команда ```playwright install```
   * Подробнее в [docs \ `PW.md`](https://github.com/MikhailPyshenko/edu-test-py-pw/blob/main/docs/PW.md)
-```shell
-playwright install
-```
+<details>
+<summary>
+==[НАЖМИ]== Команды запуска тестов
+</summary><p>\
+
 * Можно указать конкретный браузер (ещё есть msedge, разные версии и прочее) и другие команды:
 ```shell
+playwright install                                      # Установить ВСЕ браузеры (firefox, chromium, webkit)
 playwright install firefox                              # Установить конкретный браузер последней версии
 playwright install chromium --channel=chrome-beta       # Установить определенную версию
 playwright install --dry-run                            # Показать список установленных браузеров
 playwright install --with-deps                          # Установить браузеры для CI (надо sudo)
 playwright uninstall chromium                           # Удалить браузер
 ```
+</p></details>
 
 ## **Запуск авто-тестов**
 * Запуск тестов через `pytest`: команда `pytest -m smoke`
