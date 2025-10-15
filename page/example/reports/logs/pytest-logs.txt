@@ -1,52 +1,54 @@
-2025-05-19 15:47:15 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.address`.
-2025-05-19 15:47:15 [   DEBUG] faker.factory: Provider `faker.providers.address` has been localized to `en_US`.
-2025-05-19 15:47:15 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.automotive`.
-2025-05-19 15:47:15 [   DEBUG] faker.factory: Provider `faker.providers.automotive` has been localized to `en_US`.
-2025-05-19 15:47:15 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.bank`.
-2025-05-19 15:47:15 [   DEBUG] faker.factory: Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
-2025-05-19 15:47:15 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.barcode`.
-2025-05-19 15:47:15 [   DEBUG] faker.factory: Provider `faker.providers.barcode` has been localized to `en_US`.
-2025-05-19 15:47:15 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.color`.
-2025-05-19 15:47:15 [   DEBUG] faker.factory: Provider `faker.providers.color` has been localized to `en_US`.
-2025-05-19 15:47:15 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.company`.
-2025-05-19 15:47:15 [   DEBUG] faker.factory: Provider `faker.providers.company` has been localized to `en_US`.
-2025-05-19 15:47:15 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.credit_card`.
-2025-05-19 15:47:15 [   DEBUG] faker.factory: Provider `faker.providers.credit_card` has been localized to `en_US`.
-2025-05-19 15:47:15 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.currency`.
-2025-05-19 15:47:15 [   DEBUG] faker.factory: Provider `faker.providers.currency` has been localized to `en_US`.
-2025-05-19 15:47:15 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.date_time`.
-2025-05-19 15:47:15 [   DEBUG] faker.factory: Provider `faker.providers.date_time` has been localized to `en_US`.
-2025-05-19 15:47:15 [   DEBUG] faker.factory: Provider `faker.providers.doi` does not feature localization. Specified locale `en_US` is not utilized for this provider.
-2025-05-19 15:47:15 [   DEBUG] faker.factory: Provider `faker.providers.emoji` does not feature localization. Specified locale `en_US` is not utilized for this provider.
-2025-05-19 15:47:15 [   DEBUG] faker.factory: Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
-2025-05-19 15:47:15 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.geo`.
-2025-05-19 15:47:15 [   DEBUG] faker.factory: Provider `faker.providers.geo` has been localized to `en_US`.
-2025-05-19 15:47:15 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.internet`.
-2025-05-19 15:47:15 [   DEBUG] faker.factory: Provider `faker.providers.internet` has been localized to `en_US`.
-2025-05-19 15:47:15 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.isbn`.
-2025-05-19 15:47:15 [   DEBUG] faker.factory: Provider `faker.providers.isbn` has been localized to `en_US`.
-2025-05-19 15:47:15 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.job`.
-2025-05-19 15:47:15 [   DEBUG] faker.factory: Provider `faker.providers.job` has been localized to `en_US`.
-2025-05-19 15:47:15 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.lorem`.
-2025-05-19 15:47:15 [   DEBUG] faker.factory: Provider `faker.providers.lorem` has been localized to `en_US`.
-2025-05-19 15:47:15 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.misc`.
-2025-05-19 15:47:15 [   DEBUG] faker.factory: Provider `faker.providers.misc` has been localized to `en_US`.
-2025-05-19 15:47:15 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.passport`.
-2025-05-19 15:47:15 [   DEBUG] faker.factory: Provider `faker.providers.passport` has been localized to `en_US`.
-2025-05-19 15:47:15 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.person`.
-2025-05-19 15:47:15 [   DEBUG] faker.factory: Provider `faker.providers.person` has been localized to `en_US`.
-2025-05-19 15:47:15 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.phone_number`.
-2025-05-19 15:47:15 [   DEBUG] faker.factory: Provider `faker.providers.phone_number` has been localized to `en_US`.
-2025-05-19 15:47:15 [   DEBUG] faker.factory: Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
-2025-05-19 15:47:15 [   DEBUG] faker.factory: Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
-2025-05-19 15:47:15 [   DEBUG] faker.factory: Provider `faker.providers.sbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
-2025-05-19 15:47:15 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.ssn`.
-2025-05-19 15:47:15 [   DEBUG] faker.factory: Provider `faker.providers.ssn` has been localized to `en_US`.
-2025-05-19 15:47:15 [   DEBUG] faker.factory: Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
-2025-05-19 15:47:15 [   DEBUG] asyncio: Using proactor: IocpProactor
-2025-05-19 15:47:16 [    INFO] ExampleBasePage: Выполняем пример действия с данными: https://www.example.com/
-2025-05-19 15:47:17 [    INFO] ActionPage: Клик по элементу: body > div > p:nth-child(3) > a
-2025-05-19 15:47:18 [    INFO] AssertPage: URL соответствует ожидаемому: https://www.iana.org/help/example-domains
-2025-05-19 15:47:21 [    INFO] ReportPage: Сделали скриншот Результат выполнения действия
-2025-05-19 15:47:21 [    INFO] ActionPage: Ожидание 10 секунд
-2025-05-19 15:47:21 [    INFO] AssertPage: Заголовок страницы соответствует: Example Domains
+2025-10-15 15:55:51 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.address`.
+2025-10-15 15:55:51 [   DEBUG] faker.factory: Provider `faker.providers.address` has been localized to `en_US`.
+2025-10-15 15:55:51 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.automotive`.
+2025-10-15 15:55:51 [   DEBUG] faker.factory: Provider `faker.providers.automotive` has been localized to `en_US`.
+2025-10-15 15:55:51 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.bank`.
+2025-10-15 15:55:51 [   DEBUG] faker.factory: Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2025-10-15 15:55:51 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.barcode`.
+2025-10-15 15:55:51 [   DEBUG] faker.factory: Provider `faker.providers.barcode` has been localized to `en_US`.
+2025-10-15 15:55:51 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.color`.
+2025-10-15 15:55:51 [   DEBUG] faker.factory: Provider `faker.providers.color` has been localized to `en_US`.
+2025-10-15 15:55:51 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.company`.
+2025-10-15 15:55:51 [   DEBUG] faker.factory: Provider `faker.providers.company` has been localized to `en_US`.
+2025-10-15 15:55:51 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.credit_card`.
+2025-10-15 15:55:51 [   DEBUG] faker.factory: Provider `faker.providers.credit_card` has been localized to `en_US`.
+2025-10-15 15:55:51 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.currency`.
+2025-10-15 15:55:51 [   DEBUG] faker.factory: Provider `faker.providers.currency` has been localized to `en_US`.
+2025-10-15 15:55:51 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.date_time`.
+2025-10-15 15:55:51 [   DEBUG] faker.factory: Provider `faker.providers.date_time` has been localized to `en_US`.
+2025-10-15 15:55:51 [   DEBUG] faker.factory: Provider `faker.providers.doi` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2025-10-15 15:55:51 [   DEBUG] faker.factory: Provider `faker.providers.emoji` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2025-10-15 15:55:51 [   DEBUG] faker.factory: Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2025-10-15 15:55:51 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.geo`.
+2025-10-15 15:55:51 [   DEBUG] faker.factory: Provider `faker.providers.geo` has been localized to `en_US`.
+2025-10-15 15:55:51 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.internet`.
+2025-10-15 15:55:51 [   DEBUG] faker.factory: Provider `faker.providers.internet` has been localized to `en_US`.
+2025-10-15 15:55:51 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.isbn`.
+2025-10-15 15:55:51 [   DEBUG] faker.factory: Provider `faker.providers.isbn` has been localized to `en_US`.
+2025-10-15 15:55:51 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.job`.
+2025-10-15 15:55:51 [   DEBUG] faker.factory: Provider `faker.providers.job` has been localized to `en_US`.
+2025-10-15 15:55:51 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.lorem`.
+2025-10-15 15:55:51 [   DEBUG] faker.factory: Provider `faker.providers.lorem` has been localized to `en_US`.
+2025-10-15 15:55:51 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.misc`.
+2025-10-15 15:55:51 [   DEBUG] faker.factory: Provider `faker.providers.misc` has been localized to `en_US`.
+2025-10-15 15:55:51 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.passport`.
+2025-10-15 15:55:51 [   DEBUG] faker.factory: Provider `faker.providers.passport` has been localized to `en_US`.
+2025-10-15 15:55:51 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.person`.
+2025-10-15 15:55:51 [   DEBUG] faker.factory: Provider `faker.providers.person` has been localized to `en_US`.
+2025-10-15 15:55:51 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.phone_number`.
+2025-10-15 15:55:51 [   DEBUG] faker.factory: Provider `faker.providers.phone_number` has been localized to `en_US`.
+2025-10-15 15:55:51 [   DEBUG] faker.factory: Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2025-10-15 15:55:51 [   DEBUG] faker.factory: Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2025-10-15 15:55:51 [   DEBUG] faker.factory: Provider `faker.providers.sbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2025-10-15 15:55:51 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.ssn`.
+2025-10-15 15:55:51 [   DEBUG] faker.factory: Provider `faker.providers.ssn` has been localized to `en_US`.
+2025-10-15 15:55:51 [   DEBUG] faker.factory: Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2025-10-15 15:55:51 [   DEBUG] asyncio: Using proactor: IocpProactor
+2025-10-15 15:55:52 [    INFO] ExampleBasePage: Выполняем пример действия с данными: https://www.example.com/
+2025-10-15 15:55:52 [    INFO] ActionPage: Переход по URL: https://www.example.com/
+2025-10-15 15:55:53 [    INFO] ActionPage: Ожидание 100000 мс
+2025-10-15 15:57:33 [    INFO] ActionPage: Клик по элементу: body > div > p:nth-child(3) > a
+2025-10-15 15:57:44 [    INFO] AssertPage: URL соответствует ожидаемому: https://www.iana.org/help/example-domains
+2025-10-15 15:57:47 [    INFO] ReportPage: Сделали скриншот Результат выполнения действия
+2025-10-15 15:57:47 [    INFO] ActionPage: Ожидание 10 мс
+2025-10-15 15:57:47 [    INFO] AssertPage: Заголовок страницы соответствует: Example Domains

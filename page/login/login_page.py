@@ -24,11 +24,12 @@ class LoginPage(BasePage):
         self.actions = ActionPage(page)
         self.asserts = AssertPage(page)
         self.report = ReportPage(page)
+        self.base = BasePage(page)
 
     @allure.step(f"Логинимся под пользователем: {STANDARD_USER}")
     def login(self, username=STANDARD_USER, password=PASSWORD):
         self.actions.logger.info(f"Логинимся учёткой: {username}")
-        self.actions.navigate(LOGIN_URL)
+        self.actions.goto(LOGIN_URL)
         # Проверяем, что форма логина видима
         self.asserts.element_is_visible(USERNAME_INPUT)
         self.asserts.element_is_visible(PASSWORD_INPUT)
@@ -45,7 +46,7 @@ class LoginPage(BasePage):
     @allure.step(f"Логинимся под пользователем: {LOCKED_USER}")
     def login_locked(self, username=LOCKED_USER, password=PASSWORD):
         self.actions.logger.info(f"Логинимся ошибочной учёткой: {username}")
-        self.actions.navigate(LOGIN_URL)
+        self.actions.goto(LOGIN_URL)
         # Проверяем, что форма логина видима
         self.asserts.element_is_visible(USERNAME_INPUT)
         self.asserts.element_is_visible(PASSWORD_INPUT)

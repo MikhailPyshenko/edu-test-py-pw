@@ -16,6 +16,12 @@
 ## Установка и настройка
 * Установка Playwright
 ```bash
+pip install playwright
+```
+* Существует библиотека прослойка к pytest
+* Содержит в себе уже готовый conftest файл, так что его не нужно будет создавать
+* Работает не стабильно
+```bash
 pip install pytest-playwright
 ```
 ---

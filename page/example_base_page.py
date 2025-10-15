@@ -24,5 +24,5 @@ class ExampleBasePage:
 
     def goto(self):
         """Переход на страницу по URL. Записывает событие в лог."""
-        self.actions.navigate(PAGE_URL)  # переход на страницу
+        self.actions.goto(PAGE_URL)  # переход на страницу
         self.logger.info(f"Открыта страница: {PAGE_URL}")  # пример добавления логирования в метод

@@ -1,7 +1,9 @@
 # Файл списка зависимостей
-# Команда для установки:
-# pip install requirements.txt
-# Команда для раздельной установки:
+# Команда для установки пакетов из этого файла:
+# pip install -r requirements.txt
+# Команда для установки с обновлением:
+# pip install --upgrade -r requirements.txt
+# Альтернативная команда установки пакетов:
 # pip install playwright pytest pytest-html allure-pytest requests locust faker
 # Команда формирования этого документа (заменяет старый т.е. этот):
 # pip freeze > requirements.txt

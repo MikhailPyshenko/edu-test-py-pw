@@ -1,0 +1,227 @@
+2025-09-05 17:54:41 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.address`.
+2025-09-05 17:54:41 [   DEBUG] faker.factory: Provider `faker.providers.address` has been localized to `en_US`.
+2025-09-05 17:54:41 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.automotive`.
+2025-09-05 17:54:41 [   DEBUG] faker.factory: Provider `faker.providers.automotive` has been localized to `en_US`.
+2025-09-05 17:54:41 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.bank`.
+2025-09-05 17:54:41 [   DEBUG] faker.factory: Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2025-09-05 17:54:41 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.barcode`.
+2025-09-05 17:54:41 [   DEBUG] faker.factory: Provider `faker.providers.barcode` has been localized to `en_US`.
+2025-09-05 17:54:41 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.color`.
+2025-09-05 17:54:41 [   DEBUG] faker.factory: Provider `faker.providers.color` has been localized to `en_US`.
+2025-09-05 17:54:41 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.company`.
+2025-09-05 17:54:41 [   DEBUG] faker.factory: Provider `faker.providers.company` has been localized to `en_US`.
+2025-09-05 17:54:41 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.credit_card`.
+2025-09-05 17:54:41 [   DEBUG] faker.factory: Provider `faker.providers.credit_card` has been localized to `en_US`.
+2025-09-05 17:54:41 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.currency`.
+2025-09-05 17:54:41 [   DEBUG] faker.factory: Provider `faker.providers.currency` has been localized to `en_US`.
+2025-09-05 17:54:41 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.date_time`.
+2025-09-05 17:54:41 [   DEBUG] faker.factory: Provider `faker.providers.date_time` has been localized to `en_US`.
+2025-09-05 17:54:41 [   DEBUG] faker.factory: Provider `faker.providers.doi` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2025-09-05 17:54:41 [   DEBUG] faker.factory: Provider `faker.providers.emoji` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2025-09-05 17:54:41 [   DEBUG] faker.factory: Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2025-09-05 17:54:41 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.geo`.
+2025-09-05 17:54:41 [   DEBUG] faker.factory: Provider `faker.providers.geo` has been localized to `en_US`.
+2025-09-05 17:54:41 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.internet`.
+2025-09-05 17:54:41 [   DEBUG] faker.factory: Provider `faker.providers.internet` has been localized to `en_US`.
+2025-09-05 17:54:41 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.isbn`.
+2025-09-05 17:54:41 [   DEBUG] faker.factory: Provider `faker.providers.isbn` has been localized to `en_US`.
+2025-09-05 17:54:41 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.job`.
+2025-09-05 17:54:41 [   DEBUG] faker.factory: Provider `faker.providers.job` has been localized to `en_US`.
+2025-09-05 17:54:41 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.lorem`.
+2025-09-05 17:54:41 [   DEBUG] faker.factory: Provider `faker.providers.lorem` has been localized to `en_US`.
+2025-09-05 17:54:41 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.misc`.
+2025-09-05 17:54:41 [   DEBUG] faker.factory: Provider `faker.providers.misc` has been localized to `en_US`.
+2025-09-05 17:54:41 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.passport`.
+2025-09-05 17:54:41 [   DEBUG] faker.factory: Provider `faker.providers.passport` has been localized to `en_US`.
+2025-09-05 17:54:41 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.person`.
+2025-09-05 17:54:41 [   DEBUG] faker.factory: Provider `faker.providers.person` has been localized to `en_US`.
+2025-09-05 17:54:41 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.phone_number`.
+2025-09-05 17:54:41 [   DEBUG] faker.factory: Provider `faker.providers.phone_number` has been localized to `en_US`.
+2025-09-05 17:54:41 [   DEBUG] faker.factory: Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2025-09-05 17:54:41 [   DEBUG] faker.factory: Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2025-09-05 17:54:41 [   DEBUG] faker.factory: Provider `faker.providers.sbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2025-09-05 17:54:41 [   DEBUG] faker.factory: Looking for locale `en_US` in provider `faker.providers.ssn`.
+2025-09-05 17:54:41 [   DEBUG] faker.factory: Provider `faker.providers.ssn` has been localized to `en_US`.
+2025-09-05 17:54:41 [   DEBUG] faker.factory: Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2025-09-05 17:54:41 [   DEBUG] asyncio: Using proactor: IocpProactor
+2025-09-05 17:54:47 [    INFO] ActionPage: Логинимся учёткой: standard_user
+2025-09-05 17:54:47 [    INFO] ActionPage: Переход по URL: https://www.saucedemo.com/
+2025-09-05 17:54:49 [    INFO] AssertPage: Элемент #user-name видим на странице
+2025-09-05 17:54:49 [    INFO] AssertPage: Элемент #password видим на странице
+2025-09-05 17:54:49 [    INFO] AssertPage: Элемент #login-button видим на странице
+2025-09-05 17:54:49 [    INFO] ActionPage: Заполнение поля #user-name текстом: standard_user
+2025-09-05 17:54:49 [    INFO] ActionPage: Заполнение поля #password текстом: secret_sauce
+2025-09-05 17:54:49 [    INFO] ActionPage: Клик по элементу: #login-button
+2025-09-05 17:54:49 [    INFO] ActionPage: Ожидание загрузки URL: https://www.saucedemo.com/inventory.html
+2025-09-05 17:54:49 [    INFO] ReportPage: Сделали скриншот Итоги логина
+2025-09-05 17:54:49 [    INFO] AssertPage: URL соответствует ожидаемому: https://www.saucedemo.com/inventory.html
+2025-09-05 17:54:49 [    INFO] AssertPage: URL соответствует ожидаемому: https://www.saucedemo.com/inventory.html
+2025-09-05 17:54:49 [    INFO] ActionPage: Выход из системы
+2025-09-05 17:54:49 [    INFO] ActionPage: Клик по элементу: #react-burger-menu-btn
+2025-09-05 17:54:50 [    INFO] AssertPage: Элемент #logout_sidebar_link видим на странице
+2025-09-05 17:54:50 [    INFO] ActionPage: Клик по элементу: #logout_sidebar_link
+2025-09-05 17:54:51 [    INFO] ReportPage: Сделали скриншот Итоги разлогина
+2025-09-05 17:54:51 [    INFO] ActionPage: Ожидание загрузки URL: https://www.saucedemo.com/
+2025-09-05 17:54:51 [    INFO] AssertPage: URL соответствует ожидаемому: https://www.saucedemo.com/
+2025-09-05 17:54:51 [    INFO] AssertPage: URL соответствует ожидаемому: https://www.saucedemo.com/
+2025-09-05 17:54:51 [    INFO] ActionPage: Логинимся ошибочной учёткой: locked_out_user
+2025-09-05 17:54:51 [    INFO] ActionPage: Переход по URL: https://www.saucedemo.com/
+2025-09-05 17:54:52 [    INFO] AssertPage: Элемент #user-name видим на странице
+2025-09-05 17:54:52 [    INFO] AssertPage: Элемент #password видим на странице
+2025-09-05 17:54:52 [    INFO] AssertPage: Элемент #login-button видим на странице
+2025-09-05 17:54:52 [    INFO] ActionPage: Заполнение поля #user-name текстом: locked_out_user
+2025-09-05 17:54:52 [    INFO] ActionPage: Заполнение поля #password текстом: secret_sauce
+2025-09-05 17:54:52 [    INFO] ActionPage: Клик по элементу: #login-button
+2025-09-05 17:54:52 [    INFO] ReportPage: Сделали скриншот Итоги логина
+2025-09-05 17:54:52 [    INFO] AssertPage: URL соответствует ожидаемому: https://www.saucedemo.com/
+2025-09-05 17:54:52 [    INFO] AssertPage: Элемент #login_button_container > div > form > div.error-message-container.error > h3 видим на странице
+2025-09-05 17:54:52 [    INFO] AssertPage: Элемент #login_button_container > div > form > div.error-message-container.error > h3 содержит текст: Epic sadface: Sorry, this user has been locked out.
+2025-09-05 17:54:52 [    INFO] AssertPage: URL соответствует ожидаемому: https://www.saucedemo.com/
+2025-09-05 17:54:52 [    INFO] ActionPage: Логинимся учёткой: standard_user
+2025-09-05 17:54:52 [    INFO] ActionPage: Переход по URL: https://www.saucedemo.com/
+2025-09-05 17:54:53 [    INFO] AssertPage: Элемент #user-name видим на странице
+2025-09-05 17:54:53 [    INFO] AssertPage: Элемент #password видим на странице
+2025-09-05 17:54:53 [    INFO] AssertPage: Элемент #login-button видим на странице
+2025-09-05 17:54:53 [    INFO] ActionPage: Заполнение поля #user-name текстом: standard_user
+2025-09-05 17:54:53 [    INFO] ActionPage: Заполнение поля #password текстом: secret_sauce
+2025-09-05 17:54:53 [    INFO] ActionPage: Клик по элементу: #login-button
+2025-09-05 17:54:53 [    INFO] ActionPage: Ожидание загрузки URL: https://www.saucedemo.com/inventory.html
+2025-09-05 17:54:54 [    INFO] ReportPage: Сделали скриншот Итоги логина
+2025-09-05 17:54:54 [    INFO] AssertPage: URL соответствует ожидаемому: https://www.saucedemo.com/inventory.html
+2025-09-05 17:54:54 [    INFO] ActionPage: Выбор значения 'lohi' в селекторе .product_sort_container
+2025-09-05 17:54:54 [    INFO] ReportPage: Сделали скриншот Итоги сортировки лохи
+2025-09-05 17:54:54 [    INFO] AssertPage: Текст элемента #inventory_container > div > div.inventory_item:nth-child(1) .inventory_item_name точно соответствует: Sauce Labs Onesie
+2025-09-05 17:54:54 [    INFO] ActionPage: Выход из системы
+2025-09-05 17:54:54 [    INFO] ActionPage: Клик по элементу: #react-burger-menu-btn
+2025-09-05 17:54:54 [    INFO] AssertPage: Элемент #logout_sidebar_link видим на странице
+2025-09-05 17:54:54 [    INFO] ActionPage: Клик по элементу: #logout_sidebar_link
+2025-09-05 17:54:55 [    INFO] ReportPage: Сделали скриншот Итоги разлогина
+2025-09-05 17:54:55 [    INFO] ActionPage: Ожидание загрузки URL: https://www.saucedemo.com/
+2025-09-05 17:54:55 [    INFO] AssertPage: URL соответствует ожидаемому: https://www.saucedemo.com/
+2025-09-05 17:54:55 [    INFO] ActionPage: Логинимся учёткой: standard_user
+2025-09-05 17:54:55 [    INFO] ActionPage: Переход по URL: https://www.saucedemo.com/
+2025-09-05 17:54:56 [    INFO] AssertPage: Элемент #user-name видим на странице
+2025-09-05 17:54:56 [    INFO] AssertPage: Элемент #password видим на странице
+2025-09-05 17:54:56 [    INFO] AssertPage: Элемент #login-button видим на странице
+2025-09-05 17:54:56 [    INFO] ActionPage: Заполнение поля #user-name текстом: standard_user
+2025-09-05 17:54:56 [    INFO] ActionPage: Заполнение поля #password текстом: secret_sauce
+2025-09-05 17:54:56 [    INFO] ActionPage: Клик по элементу: #login-button
+2025-09-05 17:54:56 [    INFO] ActionPage: Ожидание загрузки URL: https://www.saucedemo.com/inventory.html
+2025-09-05 17:54:56 [    INFO] ReportPage: Сделали скриншот Итоги логина
+2025-09-05 17:54:56 [    INFO] AssertPage: URL соответствует ожидаемому: https://www.saucedemo.com/inventory.html
+2025-09-05 17:54:56 [    INFO] ActionPage: Клик по элементу: #add-to-cart-sauce-labs-backpack
+2025-09-05 17:54:56 [    INFO] ActionPage: Клик по элементу: #add-to-cart-sauce-labs-bike-light
+2025-09-05 17:54:57 [    INFO] ReportPage: Сделали скриншот Итоги добавления товаров
+2025-09-05 17:54:57 [    INFO] ActionPage: Клик по элементу: #remove-sauce-labs-backpack
+2025-09-05 17:54:57 [    INFO] ActionPage: Клик по элементу: #remove-sauce-labs-bike-light
+2025-09-05 17:54:57 [    INFO] ReportPage: Сделали скриншот Итоги удаления товаров
+2025-09-05 17:54:57 [    INFO] ActionPage: Выход из системы
+2025-09-05 17:54:57 [    INFO] ActionPage: Клик по элементу: #react-burger-menu-btn
+2025-09-05 17:54:57 [    INFO] AssertPage: Элемент #logout_sidebar_link видим на странице
+2025-09-05 17:54:57 [    INFO] ActionPage: Клик по элементу: #logout_sidebar_link
+2025-09-05 17:54:58 [    INFO] ReportPage: Сделали скриншот Итоги разлогина
+2025-09-05 17:54:58 [    INFO] ActionPage: Ожидание загрузки URL: https://www.saucedemo.com/
+2025-09-05 17:54:58 [    INFO] AssertPage: URL соответствует ожидаемому: https://www.saucedemo.com/
+2025-09-05 17:54:58 [    INFO] ActionPage: Логинимся учёткой: standard_user
+2025-09-05 17:54:58 [    INFO] ActionPage: Переход по URL: https://www.saucedemo.com/
+2025-09-05 17:54:59 [    INFO] AssertPage: Элемент #user-name видим на странице
+2025-09-05 17:54:59 [    INFO] AssertPage: Элемент #password видим на странице
+2025-09-05 17:54:59 [    INFO] AssertPage: Элемент #login-button видим на странице
+2025-09-05 17:54:59 [    INFO] ActionPage: Заполнение поля #user-name текстом: standard_user
+2025-09-05 17:54:59 [    INFO] ActionPage: Заполнение поля #password текстом: secret_sauce
+2025-09-05 17:54:59 [    INFO] ActionPage: Клик по элементу: #login-button
+2025-09-05 17:54:59 [    INFO] ActionPage: Ожидание загрузки URL: https://www.saucedemo.com/inventory.html
+2025-09-05 17:54:59 [    INFO] ReportPage: Сделали скриншот Итоги логина
+2025-09-05 17:54:59 [    INFO] AssertPage: URL соответствует ожидаемому: https://www.saucedemo.com/inventory.html
+2025-09-05 17:54:59 [    INFO] ActionPage: Клик по элементу: #add-to-cart-sauce-labs-backpack
+2025-09-05 17:55:00 [    INFO] ActionPage: Клик по элементу: #add-to-cart-sauce-labs-bike-light
+2025-09-05 17:55:00 [    INFO] ReportPage: Сделали скриншот Итоги добавления товаров
+2025-09-05 17:55:00 [    INFO] ActionPage: Клик по элементу: .shopping_cart_link
+2025-09-05 17:55:00 [    INFO] ReportPage: Сделали скриншот Товары в корзине
+2025-09-05 17:55:00 [    INFO] AssertPage: Элемент .cart_list видим на странице
+2025-09-05 17:55:00 [    INFO] AssertPage: Найдено 2 элементов .cart_item (ожидалось: 2)
+2025-09-05 17:55:00 [    INFO] AssertPage: Элемент .cart_item >> nth=0 видим на странице
+2025-09-05 17:55:00 [    INFO] ActionPage: Клик по элементу: #remove-sauce-labs-backpack
+2025-09-05 17:55:00 [    INFO] ActionPage: Клик по элементу: #remove-sauce-labs-bike-light
+2025-09-05 17:55:00 [    INFO] ReportPage: Сделали скриншот Пустота в корзине
+2025-09-05 17:55:00 [    INFO] AssertPage: Найдено 0 элементов .cart_item (ожидалось: 0)
+2025-09-05 17:55:00 [    INFO] AssertPage: Элемент .cart_item скрыт на странице
+2025-09-05 17:55:00 [    INFO] ActionPage: Выход из системы
+2025-09-05 17:55:00 [    INFO] ActionPage: Клик по элементу: #react-burger-menu-btn
+2025-09-05 17:55:00 [    INFO] AssertPage: Элемент #logout_sidebar_link видим на странице
+2025-09-05 17:55:00 [    INFO] ActionPage: Клик по элементу: #logout_sidebar_link
+2025-09-05 17:55:00 [    INFO] ReportPage: Сделали скриншот Итоги разлогина
+2025-09-05 17:55:00 [    INFO] ActionPage: Ожидание загрузки URL: https://www.saucedemo.com/
+2025-09-05 17:55:00 [    INFO] AssertPage: URL соответствует ожидаемому: https://www.saucedemo.com/
+2025-09-05 17:55:01 [    INFO] ActionPage: Логинимся учёткой: standard_user
+2025-09-05 17:55:01 [    INFO] ActionPage: Переход по URL: https://www.saucedemo.com/
+2025-09-05 17:55:02 [    INFO] AssertPage: Элемент #user-name видим на странице
+2025-09-05 17:55:02 [    INFO] AssertPage: Элемент #password видим на странице
+2025-09-05 17:55:02 [    INFO] AssertPage: Элемент #login-button видим на странице
+2025-09-05 17:55:02 [    INFO] ActionPage: Заполнение поля #user-name текстом: standard_user
+2025-09-05 17:55:02 [    INFO] ActionPage: Заполнение поля #password текстом: secret_sauce
+2025-09-05 17:55:02 [    INFO] ActionPage: Клик по элементу: #login-button
+2025-09-05 17:55:02 [    INFO] ActionPage: Ожидание загрузки URL: https://www.saucedemo.com/inventory.html
+2025-09-05 17:55:02 [    INFO] ReportPage: Сделали скриншот Итоги логина
+2025-09-05 17:55:02 [    INFO] AssertPage: URL соответствует ожидаемому: https://www.saucedemo.com/inventory.html
+2025-09-05 17:55:02 [    INFO] ActionPage: Клик по элементу: #add-to-cart-sauce-labs-backpack
+2025-09-05 17:55:02 [    INFO] ActionPage: Клик по элементу: #add-to-cart-sauce-labs-bike-light
+2025-09-05 17:55:02 [    INFO] ReportPage: Сделали скриншот Итоги добавления товаров
+2025-09-05 17:55:02 [    INFO] ActionPage: Клик по элементу: .shopping_cart_link
+2025-09-05 17:55:02 [    INFO] ReportPage: Сделали скриншот Товары в корзине
+2025-09-05 17:55:02 [    INFO] AssertPage: Элемент .cart_list видим на странице
+2025-09-05 17:55:02 [    INFO] AssertPage: Найдено 2 элементов .cart_item (ожидалось: 2)
+2025-09-05 17:55:02 [    INFO] AssertPage: Элемент .cart_item >> nth=0 видим на странице
+2025-09-05 17:55:02 [    INFO] ActionPage: Клик по элементу: #checkout
+2025-09-05 17:55:02 [    INFO] ActionPage: Заполнение поля #first-name текстом: Douglas
+2025-09-05 17:55:02 [    INFO] ActionPage: Заполнение поля #last-name текстом: Li
+2025-09-05 17:55:02 [    INFO] ActionPage: Заполнение поля #postal-code текстом: 45080
+2025-09-05 17:55:02 [    INFO] ActionPage: Клик по элементу: #continue
+2025-09-05 17:55:03 [    INFO] ActionPage: Клик по элементу: #finish
+2025-09-05 17:55:03 [    INFO] ReportPage: Сделали скриншот Пустота в корзине
+2025-09-05 17:55:03 [    INFO] AssertPage: Найдено 0 элементов .cart_item (ожидалось: 0)
+2025-09-05 17:55:03 [    INFO] AssertPage: Элемент .cart_item скрыт на странице
+2025-09-05 17:55:03 [    INFO] ActionPage: Выход из системы
+2025-09-05 17:55:03 [    INFO] ActionPage: Клик по элементу: #react-burger-menu-btn
+2025-09-05 17:55:03 [    INFO] AssertPage: Элемент #logout_sidebar_link видим на странице
+2025-09-05 17:55:03 [    INFO] ActionPage: Клик по элементу: #logout_sidebar_link
+2025-09-05 17:55:04 [    INFO] ReportPage: Сделали скриншот Итоги разлогина
+2025-09-05 17:55:04 [    INFO] ActionPage: Ожидание загрузки URL: https://www.saucedemo.com/
+2025-09-05 17:55:04 [    INFO] AssertPage: URL соответствует ожидаемому: https://www.saucedemo.com/
+2025-09-05 17:55:04 [    INFO] ActionPage: Логинимся учёткой: standard_user
+2025-09-05 17:55:04 [    INFO] ActionPage: Переход по URL: https://www.saucedemo.com/
+2025-09-05 17:55:05 [    INFO] AssertPage: Элемент #user-name видим на странице
+2025-09-05 17:55:05 [    INFO] AssertPage: Элемент #password видим на странице
+2025-09-05 17:55:05 [    INFO] AssertPage: Элемент #login-button видим на странице
+2025-09-05 17:55:05 [    INFO] ActionPage: Заполнение поля #user-name текстом: standard_user
+2025-09-05 17:55:05 [    INFO] ActionPage: Заполнение поля #password текстом: secret_sauce
+2025-09-05 17:55:05 [    INFO] ActionPage: Клик по элементу: #login-button
+2025-09-05 17:55:05 [    INFO] ActionPage: Ожидание загрузки URL: https://www.saucedemo.com/inventory.html
+2025-09-05 17:55:05 [    INFO] ReportPage: Сделали скриншот Итоги логина
+2025-09-05 17:55:05 [    INFO] AssertPage: URL соответствует ожидаемому: https://www.saucedemo.com/inventory.html
+2025-09-05 17:55:05 [    INFO] ActionPage: Выбор значения 'lohi' в селекторе .product_sort_container
+2025-09-05 17:55:05 [    INFO] ReportPage: Сделали скриншот Итоги сортировки лохи
+2025-09-05 17:55:06 [    INFO] AssertPage: Текст элемента #inventory_container > div > div.inventory_item:nth-child(1) .inventory_item_name точно соответствует: Sauce Labs Onesie
+2025-09-05 17:55:06 [    INFO] ActionPage: Клик по элементу: #add-to-cart-sauce-labs-backpack
+2025-09-05 17:55:06 [    INFO] ActionPage: Клик по элементу: #add-to-cart-sauce-labs-bike-light
+2025-09-05 17:55:06 [    INFO] ReportPage: Сделали скриншот Итоги добавления товаров
+2025-09-05 17:55:06 [    INFO] ActionPage: Клик по элементу: .shopping_cart_link
+2025-09-05 17:55:06 [    INFO] ReportPage: Сделали скриншот Товары в корзине
+2025-09-05 17:55:06 [    INFO] AssertPage: Элемент .cart_list видим на странице
+2025-09-05 17:55:06 [    INFO] AssertPage: Найдено 2 элементов .cart_item (ожидалось: 2)
+2025-09-05 17:55:06 [    INFO] AssertPage: Элемент .cart_item >> nth=0 видим на странице
+2025-09-05 17:55:06 [    INFO] ActionPage: Клик по элементу: #checkout
+2025-09-05 17:55:06 [    INFO] ActionPage: Заполнение поля #first-name текстом: Douglas
+2025-09-05 17:55:06 [    INFO] ActionPage: Заполнение поля #last-name текстом: Li
+2025-09-05 17:55:06 [    INFO] ActionPage: Заполнение поля #postal-code текстом: 45080
+2025-09-05 17:55:06 [    INFO] ActionPage: Клик по элементу: #continue
+2025-09-05 17:55:06 [    INFO] ActionPage: Клик по элементу: #finish
+2025-09-05 17:55:06 [    INFO] AssertPage: URL соответствует ожидаемому: https://www.saucedemo.com/checkout-complete.html
+2025-09-05 17:55:06 [    INFO] ActionPage: Выход из системы
+2025-09-05 17:55:06 [    INFO] ActionPage: Клик по элементу: #react-burger-menu-btn
+2025-09-05 17:55:06 [    INFO] AssertPage: Элемент #logout_sidebar_link видим на странице
+2025-09-05 17:55:06 [    INFO] ActionPage: Клик по элементу: #logout_sidebar_link
+2025-09-05 17:55:07 [    INFO] ReportPage: Сделали скриншот Итоги разлогина
+2025-09-05 17:55:07 [    INFO] ActionPage: Ожидание загрузки URL: https://www.saucedemo.com/
+2025-09-05 17:55:07 [    INFO] AssertPage: URL соответствует ожидаемому: https://www.saucedemo.com/
+2025-09-05 17:55:07 [    INFO] AssertPage: URL соответствует ожидаемому: https://www.saucedemo.com/

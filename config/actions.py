@@ -7,7 +7,7 @@ class ActionPage:
         self.page = page
         self.logger = get_logger(self.__class__.__name__)
 
-    def navigate(self, url):
+    def goto(self, url):
         # Переходит на указанный URL
         self.logger.info(f"Переход по URL: {url}")
         self.page.goto(url)
@@ -60,8 +60,8 @@ class ActionPage:
         self.logger.info(f"Ожидание селектора {locator} в течение {timeout} мс")
         self.page.wait_for_selector(locator, timeout=timeout)
 
-    def wait(self, timeout):
-        # Ждёт появления элемента с заданным локатором (5000 тикетов = 5 секунд)
-        self.logger.info(f"Ожидание {timeout} секунд")
-        timeout = timeout / 1000
-        self.page.wait_for_timeout(timeout)
+    def wait(self, timeout_ms):
+        # Ждёт указанное количество миллисекунд
+        self.logger.info(f"Ожидание {timeout_ms} мс")
+        timeout_seconds = timeout_ms / 1000  # Конвертируем мс в секунды
+        self.page.wait_for_timeout(timeout_seconds * 1000)  # wait_for_timeout ожидает миллисекунды
