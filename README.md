@@ -40,8 +40,8 @@ pip install playwright pytest pytest-playwright pytest-html allure-pytest reques
   * Подробнее в [docs \ `PW.md`](https://github.com/MikhailPyshenko/edu-test-py-pw/blob/main/docs/PW.md)
 <details>
 <summary>
-==[НАЖМИ]== Команды управления playwright
-</summary><p>\
+==[НАЖМИ]== Команды управления браузерами playwright
+</summary><p>
 
 * Можно указать конкретный браузер (ещё есть msedge, разные версии и прочее) и другие команды:
 ```shell
