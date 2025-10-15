@@ -60,8 +60,23 @@ class ActionPage:
         self.logger.info(f"Ожидание селектора {locator} в течение {timeout} мс")
         self.page.wait_for_selector(locator, timeout=timeout)
 
-    def wait(self, timeout_ms):
-        # Ждёт указанное количество миллисекунд
-        self.logger.info(f"Ожидание {timeout_ms} мс")
-        timeout_seconds = timeout_ms / 1000  # Конвертируем мс в секунды
-        self.page.wait_for_timeout(timeout_seconds * 1000)  # wait_for_timeout ожидает миллисекунды
+    def wait(self, timeout_seconds):
+        """Ждёт указанное количество секунд"""
+        self.logger.info(f"Ожидание {timeout_seconds} секунд")
+        self.page.wait_for_timeout(timeout_seconds * 1000)  # конвертируем секунды в миллисекунды
+
+    def wait_load_all(self, load_opt):
+        # Ждёт загрузки, варианты: Только DOM без ресов "domcontentloaded", полная загрузка всего "load", отсутствие сетевых запросов дольше 500 мс "networkidle"
+        # Словарь для понятного описания вариантов загрузки
+        load_descriptions = {
+            "domcontentloaded": "DOM (без ресурсов)",
+            "load": "полной загрузки всего контента",
+            "networkidle": "отсутствия сетевых запросов",
+        }
+        description = load_descriptions.get(load_opt, f"неизвестного типа: {load_opt}")
+        self.logger.info(f"Ожидание загрузки страницы: {description}")
+        self.page.wait_for_load_state(load_opt)
+
+    def wait_load_all_js(self):
+        self.logger.info(f"JavaScript-способ ожидания загрузки: ждем, пока DOM полностью загрузится")
+        self.page.wait_for_function("document.readyState === 'complete'")

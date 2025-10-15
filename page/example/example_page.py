@@ -21,7 +21,7 @@ class ExamplePage(ExampleBasePage):
         # 1. Навигация
         self.base.actions.goto(INPUT)
         # 2. Взаимодействие с элементами
-        self.base.actions.wait(100000)
+        self.base.actions.wait(2)
         self.base.actions.click(BUTTON)
         # 3. Проверки
         real_url = self.page.url
